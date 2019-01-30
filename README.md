@@ -9,6 +9,7 @@ Caleb | Whiteboard PCF
 Caleb | Demo .NET Core on PCF
 Group | Hands on: Run through sample app individually (swarm if needed)
 Will | Demo CICD (Jenkins)
+Caleb | Homework
 Group | Q&A
 ---
 ## Log into GCP
@@ -74,3 +75,13 @@ Group | Q&A
     env | Reports the keys and values from the applications configuration
     mappings | Reports the configured ASP.NET routes and route templates
     metrics | Reports the collected metrics for the application
+---
+## Homework
+### Now that you've worked with PCF on GCP, keep the momentum going:
+* Install [PCF Dev](https://pivotal.io/pcf-dev) on your laptop
+* Make the above sample app work locally
+* Go through the other [samples](https://github.com/SteeltoeOSS/Samples) and deploy those locally too. You'll cover intermediate topics like:
+    * Circuit Breaking
+    * Service Discovery
+    * Centralized Config
+    * Service Connectors

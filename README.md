@@ -1,5 +1,13 @@
-# pivotal-workshops-dish
+# pivotal-workshops-envision
 
+## Agenda (2-4 hours)
+* (Ivo) **Set the stage (why are we here?)**
+* (Group) **Intros (role + experience)**
+* (Caleb) **Whiteboard PCF**
+* (Caleb) **Demo .NET Core on PCF**
+* (Group) **Hands on: Run through sample app individually (swarm if needed)**
+* (Will) **Demo Jenkins**
+---
 ## Log into GCP
 * Go to https://console.cloud.google.com
 * Log in with your google/gmail account

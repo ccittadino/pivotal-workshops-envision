@@ -3,13 +3,13 @@
 ## Agenda (2-4 hours)
 Led by | Topic
 -------|------
-* Ivo | Set the stage (why are we here?)
-* Group | Intros (role + experience)
-* Caleb | Whiteboard PCF
-* Caleb | Demo .NET Core on PCF
-* Group | Hands on: Run through sample app individually (swarm if needed)
-* Will | Demo CICD (Jenkins)
-* Group | Q&A
+Ivo | Set the stage (why are we here?)
+Group | Intros (role + experience)
+Caleb | Whiteboard PCF
+Caleb | Demo .NET Core on PCF
+Group | Hands on: Run through sample app individually (swarm if needed)
+Will | Demo CICD (Jenkins)
+Group | Q&A
 ---
 ## Log into GCP
 * Go to https://console.cloud.google.com

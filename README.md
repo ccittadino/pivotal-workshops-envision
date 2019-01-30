@@ -41,23 +41,25 @@
     ```
 ---
 ## Kick the tires
-* Check out all the tabs and get yourself oriented with:
-    * Orgs/Spaces
-        * What quotas are set for you?
-    * Apps
-        * Scale up and down manually
-        * Check the health response of each node
-    * Services
-        * Bind/Unbind services from the marketplace
-    * Routes
-        * Add a blue and green version
-    * Logs
-        * Adjust log level on the fly
-    * Trace
-        * See centralized http tracing 
-    * Settings
-        * Check your git/build version info
-        * Check the `Environment Variables` section to see how the platform injects configuration into you app
-    * PCF Metrics
-        * See centralized metrics against that correlate to your logs
-        * Isolate your view per instance or for the cluster
+### Check out all the tabs in appsman and get yourself oriented:
+* Orgs/Spaces
+    * What quotas are set for you?
+* Apps
+    * Scale up and down manually
+* Services
+    * Bind/Unbind additional services from the marketplace
+        * Note: you do not have to use them to bind them    
+* Routes
+    * Add a blue and green version
+* Match the following actuator endpoints provided by your app with the UI in appsman:
+
+    Endpoint | Description
+    ---|------------
+    health | Customizable endpoint that reports application health information
+    info | Customizable endpoint that reports arbitrary application information (such as Git Build info and other details)
+    loggers | Allows remote access and modification of logging levels in a .NET application
+    trace | Reports a configurable set of trace information (such as the last 100 HTTP requests)
+    refresh | Triggers the application configuration to be reloaded
+    env | Reports the keys and values from the applications configuration
+    mappings | Reports the configured ASP.NET routes and route templates
+    metrics | Reports the collected metrics for the application

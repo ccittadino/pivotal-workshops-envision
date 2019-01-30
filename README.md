@@ -3,7 +3,6 @@
 ## Log into GCP
 * Go to https://console.cloud.google.com
 * Log in with your google/gmail account
-* Ensure you have selected the 'FE-ccittadino' project in the top left
 ---
 ## Set up your Cloud Shell
 * Ensure you have selected the 'FE-ccittadino' project (see top left)
@@ -40,3 +39,25 @@
     ```
     cf push -f manifest.yml -p bin/Debug/netcoreapp2.1/ubuntu.14.04-x64/publish
     ```
+---
+## Kick the tires
+* Check out all the tabs and get yourself oriented with:
+    * Orgs/Spaces
+        * What quotas are set for you?
+    * Apps
+        * Scale up and down manually
+        * Check the health response of each node
+    * Services
+        * Bind/Unbind services from the marketplace
+    * Routes
+        * Add a blue and green version
+    * Logs
+        * Adjust log level on the fly
+    * Trace
+        * See centralized http tracing 
+    * Settings
+        * Check your git/build version info
+        * Check the `Environment Variables` section to see how the platform injects configuration into you app
+    * PCF Metrics
+        * See centralized metrics against that correlate to your logs
+        * Isolate your view per instance or for the cluster

@@ -53,7 +53,7 @@ Group | Q&A
     ```
 ---
 ## Kick the tires
-### Check out all the tabs in appsman and get yourself oriented:
+### Check out all the tabs in [appsman](https://apps.sys.pas.warroyo.com) and get yourself oriented:
 * Orgs/Spaces
     * What quotas are set for you?
 * Apps
